@@ -317,6 +317,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.power@1.3-service.samsung-sm8250
 
+#Properties
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.fastbootd.available=true
+
 # Recovery
 PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
@@ -383,6 +387,3 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
     $(LOCAL_PATH)/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
-
-# Properties
--include $(COMMON_PATH)/vendor_prop.mk

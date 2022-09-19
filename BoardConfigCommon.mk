@@ -215,6 +215,8 @@ TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 # Properties
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
+TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
+TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
 
 # Inherit the proprietary files
 include vendor/samsung/sm8250-common/BoardConfigVendor.mk
