@@ -330,10 +330,6 @@ PRODUCT_PACKAGES += \
     frameworks/native/data/etc/android.hardware.sensor.proximity.xml:system/etc/permissions/android.hardware.sensor.proximity.xml \
     frameworks/native/data/etc/android.hardware.sensor.hifi_sensors.xml:system/etc/permissions/android.hardware.sensor.hifi_sensors.xml
 
-# Skip Mount
-PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/skip_mount.cfg:system/etc/init/config/skip_mount.cfg
-
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(COMMON_PATH)
