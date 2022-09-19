@@ -196,16 +196,14 @@ vendor/lib64/libllvm-glnext.so
 vendor/lib64/libllvm-qcom.so
 
 # Graphics (Adreno firmware)
-vendor/firmware/a620_gmu.bin
-vendor/firmware/a620_sqe.fw
 vendor/firmware/a620_zap.b00
 vendor/firmware/a620_zap.b01
 vendor/firmware/a620_zap.b02
 vendor/firmware/a620_zap.elf
 vendor/firmware/a620_zap.mdt
 
-vendor/firmware/a615_gmu.bin
-vendor/firmware/a615_sqe.fw
+vendor/firmware/a650_gmu.bin
+vendor/firmware/a650_sqe.fw
 vendor/firmware/a615_zap.b00
 vendor/firmware/a615_zap.b01
 vendor/firmware/a615_zap.b02
@@ -448,7 +446,6 @@ vendor/lib64/libqcbor.so
 vendor/lib64/libqrtr.so
 vendor/lib64/libqsocket.so
 vendor/lib64/libsystem_health_mon.so
-vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
