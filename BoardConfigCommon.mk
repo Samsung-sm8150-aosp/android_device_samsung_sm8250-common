@@ -192,4 +192,4 @@ BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
 
 # Inherit the proprietary files
-include vendor/xiaomi/sm8250-common/BoardConfigVendor.mk
+include vendor/samsung/sm8250-common/BoardConfigVendor.mk
