@@ -124,8 +124,8 @@ PRODUCT_PACKAGES += \
     disable_configstore
 
     # Component overrides
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
 
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
