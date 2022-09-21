@@ -177,6 +177,10 @@ BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST := $(ALL_PARTITIONS)
 # Security patch level
 VENDOR_SECURITY_PATCH := 2022-07-01
 
+# Shims
+TARGET_LD_SHIM_LIBS := \
+    /system/vendor/lib64/libsec-ril.so|libcutils_shim.so
+
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
