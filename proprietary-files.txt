@@ -325,18 +325,28 @@ vendor/lib64/libmmosal.so
 
 # Media configs
 vendor/etc/media_codecs.xml
-
 vendor/etc/media_codecs_kona.xml
-
-
 vendor/etc/media_codecs_performance_kona.xml
-
-
 vendor/etc/media_codecs_vendor_audio.xml
 vendor/etc/media_profiles.xml
 vendor/etc/media_profiles_kona.xml
 vendor/etc/media_profiles_vendor.xml
 vendor/etc/system_properties.xml
+
+# Misc
+vendor/etc/ssg/ta_config.json
+vendor/etc/ssg/tz_whitelist.json
+vendor/etc/str/str_preference_data.dat
+vendor/etc/seccomp_policy/atfwd@2.0.policy
+vendor/lib/libIDDQD_core.so
+vendor/lib/libIDDQD_interface.so
+vendor/lib/vendor.qti.hardware.dsp@1.0.so
+vendor/lib64/libdsms_vendor.so
+vendor/lib64/libnfnetlink.so
+vendor/lib64/vendor.qti.hardware.data.connection@1.1.so
+vendor/lib64/vendor.samsung.frameworks.security.dsms@1.0.so
+vendor/lib64/vendor.samsung.frameworks.security.ucm.crypto@1.0.so
+vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
 
 # Neural networks
