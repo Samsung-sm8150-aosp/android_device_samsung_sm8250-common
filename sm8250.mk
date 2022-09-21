@@ -141,8 +141,7 @@ PRODUCT_PACKAGES += \
 
 # Health
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.1-impl \
-    android.hardware.health@2.1-service
+    android.hardware.health@2.1.vendor
 
 
 # HIDL
@@ -403,6 +402,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
 
+
+#WiFi Firmware
+$(foreach f,$(wildcard $(LOCAL_PATH)/wifi-firmware/*),\
+        $(eval PRODUCT_COPY_FILES += $(f):$(TARGET_COPY_OUT_VENDOR)firmware/wlan/qca6390/$(notdir $f)))
 
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/samsung/sm8250-common/sm8250-common-vendor.mk)
