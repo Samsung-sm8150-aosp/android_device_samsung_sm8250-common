@@ -105,7 +105,9 @@ BOARD_ROOT_EXTRA_FOLDERS := \
     dqmdbg \
     spu \
     keydata \
-    keyrefuge
+    keyrefuge \
+    prism \
+    optics
 
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(COMMON_PATH)/framework_manifest.xml
