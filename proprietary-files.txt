@@ -921,3 +921,18 @@ vendor/lib64/vendor.samsung.hardware.radio.bridge@2.1.so
 vendor/lib64/vendor.samsung.hardware.radio@2.2.so
 vendor/lib64/vendor.samsung.hardware.radio@2.0.so
 vendor/lib64/libcamxfacialfeatures.so
+ 
+#FILES ADDED BY FIXBLOBS.SH, SORT YOURSELF
+#lib
+vendor/lib/vendor.qti.hardware.perf@2.0.so
+vendor/lib/lib_SamsungRec_07020.so
+vendor/lib/vendor.qti.hardware.perf@2.2.so
+vendor/lib/libcacertclient.so
+vendor/lib/vendor.qti.memory.pasrmanager@1.1.so
+ 
+#lib64
+ 
+vendor/lib64/vendor.qti.hardware.perf@2.0.so
+vendor/lib64/vendor.qti.hardware.perf@2.2.so
+vendor/lib64/libcacertclient.so
+vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so
