@@ -243,14 +243,17 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    libprotobuf-cpp-full \
+    android.hardware.radio@1.5.vendor \
+    android.hardware.radio.config@1.2.vendor \
+    android.hardware.radio.deprecated@1.0.vendor \
+    libjson \
     librmnetctl \
-    libxml2
-
-PRODUCT_PACKAGES += \
-    android.hardware.radio@1.6.vendor \
-    android.hardware.radio.config@1.3.vendor \
-    android.hardware.radio.deprecated@1.0.vendor
+    libxml2 \
+    librilutils \
+    secril_config_svc \
+    libprotobuf-cpp-full \
+    libtrafficcontrol-spoofer \
+    libcutils_shim
 
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay-lineage
