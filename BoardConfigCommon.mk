@@ -153,7 +153,7 @@ ALL_PARTITIONS := $(SSI_PARTITIONS) $(TREBLE_PARTITIONS)
 $(foreach p, $(call to-upper, $(ALL_PARTITIONS)), \
     $(eval BOARD_$(p)IMAGE_FILE_SYSTEM_TYPE := ext4) \
     $(eval TARGET_COPY_OUT_$(p) := $(call to-lower, $(p))))
-
+    
 
 # Partitions - reserved size
 ifneq ($(WITH_GMS),true)
