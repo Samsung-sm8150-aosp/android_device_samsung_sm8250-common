@@ -423,6 +423,8 @@ vendor/lib64/libkeymaster_portable.so
 vendor/lib64/libkeystore-engine-wifi-hidl.so
 vendor/lib64/libkeystore-wifi-hidl.so
 vendor/lib64/libpuresoftkeymasterdevice.so
+vendor/lib/libqtikeymaster4.so
+vendor/lib64/libqtikeymaster4.so
 
 # Listen
 vendor/lib/hw/sound_trigger.primary.kona.so
