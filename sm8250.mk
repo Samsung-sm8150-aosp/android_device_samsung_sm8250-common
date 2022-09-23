@@ -245,6 +245,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/btcon.json:$(TARGET_COPY_OUT_VENDOR)/etc/btcon.json
 # QMI
 PRODUCT_PACKAGES += \
     libjson \
