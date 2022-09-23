@@ -93,6 +93,7 @@ PRODUCT_PACKAGES += \
     libdisplayconfig.qti \
     libdisplayconfig.qti.vendor \
     libdisplayconfig.system.qti \
+    gralloc.kona \
     libqdMetaData \
     libqdMetaData.system \
     libsdmcore \
