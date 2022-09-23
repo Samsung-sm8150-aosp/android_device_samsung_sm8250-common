@@ -182,6 +182,13 @@ vendor/lib/vendor.samsung.hardware.health@2.0.so
 vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so
 vendor/lib64/vendor.samsung.hardware.health@2.0.so
 
+# Display (HWC)
+vendor/bin/hw/vendor.qti.hardware.display.composer-service
+vendor/lib64/libdisplayconfig.qti.so
+vendor/lib64/libhistogram.so
+vendor/lib64/libqdutils.so
+vendor/lib64/libsdmcore.so
+vendor/lib64/libsdmutils.so
 
 # Display (SDM)
 vendor/lib64/libdisplayqos.so
