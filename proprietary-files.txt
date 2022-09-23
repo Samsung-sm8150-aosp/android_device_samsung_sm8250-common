@@ -336,6 +336,8 @@ vendor/bin/hw/android.hardware.gnss@2.1-service-qti
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
 vendor/bin/xtra-daemon
+vendor/lib/libqcc_file_agent.so
+vendor/lib64/libqcc_file_agent.so
 vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc
 vendor/lib/hw/android.hardware.gnss@2.1-impl-qti.so
 vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so
