@@ -404,27 +404,8 @@ vendor/etc/sap.conf
 
 
 # Keymaster
-vendor/bin/hw/android.hardware.keymaster@4.0-strongbox-service-qti
-vendor/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc
-vendor/bin/hw/android.hardware.keymaster@4.0-service
-vendor/etc/init/android.hardware.keymaster@4.0-service.rc
-#vendor/lib64/libkeymasterdeviceutils.so
-#vendor/lib64/libkeymasterutils.so
-#vendor/lib64/libqtikeymaster4.so#
-#vendor/lib64/libspcom.so
-vendor/bin/hw/android.hardware.keymaster@4.0-service
-vendor/etc/init/android.hardware.keymaster@4.0-service.rc
-vendor/lib64/libkeymaster4.so
-vendor/lib64/libkeymaster4_1support.so
-vendor/lib64/libkeymaster4support.so
 vendor/lib64/libkeymaster_helper.so
-vendor/lib64/libkeymaster_portable.so
 -vendor/lib64/libskeymaster4device.so
-vendor/lib64/libkeystore-engine-wifi-hidl.so
-vendor/lib64/libkeystore-wifi-hidl.so
-vendor/lib64/libpuresoftkeymasterdevice.so
-vendor/lib/libqtikeymaster4.so
-vendor/lib64/libqtikeymaster4.so
 
 # Listen
 vendor/lib/hw/sound_trigger.primary.kona.so
@@ -830,7 +811,6 @@ vendor/lib/libuniplugin.so
 vendor/lib/libtswrappercommon.so
 vendor/lib/libtriplecam_video_optical_zoom.so
 vendor/lib/libcvp_common.so
-vendor/lib/libkeymasterdeviceutils.so
 vendor/lib/libsnsdiaglog.so
 vendor/lib/libMpeghSwEnc.so
 vendor/lib/libcamxstatscore.so
@@ -863,7 +843,6 @@ vendor/lib64/libqmiextservices.so
 vendor/lib64/libtswrappercommon.so
 vendor/lib64/libtriplecam_video_optical_zoom.so
 vendor/lib64/libcvp_common.so
-vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libMpeghSwEnc.so
 vendor/lib64/libcamxstatscore.so

@@ -173,8 +173,8 @@ PRODUCT_PACKAGES += \
 
 # Keymaster
 PRODUCT_PACKAGES += \
-    android.hardware.keymaster@4.0.vendor \
-    android.hardware.keymaster@4.1.vendor
+    android.hardware.keymaster@4.0-service.samsung.sm8250 \
+    libkeymaster4_1support.vendor
 
 # Init
 PRODUCT_COPY_FILES += \
