@@ -266,9 +266,7 @@ vendor/firmware/ipa_fws.mdt
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
 # Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
-vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+vendor/lib64/hw/gatekeeper.mdfpp.so
 
 # Graphics (Adreno)
 -vendor/app/com.qualcomm.qti.gpudrivers.kona.api30/com.qualcomm.qti.gpudrivers.kona.api30.apk
@@ -406,6 +404,8 @@ vendor/etc/sap.conf
 # Keymaster
 vendor/lib64/libkeymaster_helper.so
 -vendor/lib64/libskeymaster4device.so
+vendor/lib/libkeymasterdeviceutils.so
+vendor/lib64/libkeymasterdeviceutils.so
 
 # Listen
 vendor/lib/hw/sound_trigger.primary.kona.so
