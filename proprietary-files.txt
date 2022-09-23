@@ -175,7 +175,7 @@ vendor/etc/init/android.hardware.health@2.1-service-samsung.rc
 -vendor/etc/vintf/manifest/android.hardware.health@2.1-samsung.xml
 vendor/lib/hw/android.hardware.health@2.0-impl-2.1-samsung.so
 vendor/lib/vendor.samsung.hardware.health@2.0.so
-vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so|8e7c50b855276f6158d6dac82a5e9192b6ca4d09
+vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so
 vendor/lib64/vendor.samsung.hardware.health@2.0.so
 
 
