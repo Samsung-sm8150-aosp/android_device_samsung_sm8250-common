@@ -411,6 +411,9 @@ vendor/lib64/libkeymaster_helper.so
 -vendor/lib64/libskeymaster4device.so
 vendor/lib/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterdeviceutils.so
+vendor/bin/hw/android.hardware.keymaster@4.0-strongbox-service-qti
+vendor/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc
+vendor/etc/permissions/android.hardware.strongbox_keystore.xml
 
 # Listen
 vendor/lib/hw/sound_trigger.primary.kona.so
