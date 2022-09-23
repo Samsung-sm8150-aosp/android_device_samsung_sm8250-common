@@ -430,6 +430,8 @@ vendor/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc
 -vendor/etc/permissions/android.hardware.strongbox_keystore.xml
 vendor/lib/libqtikeymaster4.so
 vendor/lib64/libqtikeymaster4.so
+vendor/lib/libkeymasterutils.so
+vendor/lib64/libkeymasterutils.so
 
 # Listen
 vendor/lib/hw/sound_trigger.primary.kona.so
