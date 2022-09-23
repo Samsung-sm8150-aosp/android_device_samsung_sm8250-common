@@ -540,6 +540,7 @@ vendor/lib64/libperipheral_client.so
 vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service
 vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc
 vendor/lib64/vendor.samsung.hardware.miscpower@2.0.so
+-vendor/etc/vintf/manifest/power-samsung.xml
 
 
 # Power - Perf
