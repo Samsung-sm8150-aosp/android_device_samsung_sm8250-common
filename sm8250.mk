@@ -122,7 +122,11 @@ PRODUCT_PACKAGES += \
 
 # Configstore
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.capabilityconfigstore@1.0.vendor
+    vendor.qti.hardware.capabilityconfigstore@1.0.vendor 
+
+#Configstore Display
+PRODUCT_PACKAGES += \
+    android.hardware.configstore@1.1-service
 
     # Component overrides
 #PRODUCT_COPY_FILES += \
