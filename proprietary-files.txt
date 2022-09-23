@@ -189,6 +189,8 @@ vendor/lib64/libhistogram.so
 vendor/lib64/libqdutils.so
 vendor/lib64/libsdmcore.so
 vendor/lib64/libsdmutils.so
+vendor/lib/libsdedrm.so
+vendor/lib64/libsdedrm.so
 
 # Display (SDM)
 vendor/lib64/libdisplayqos.so
