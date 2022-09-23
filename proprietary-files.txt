@@ -798,12 +798,12 @@ vendor/lib64/vendor.qti.voiceprint@1.0.so
 vendor/bin/hw/macloader
 #vendor/bin/cnss_diag
 vendor/bin/cnss-daemon
-#vendor/firmware/wlan/qca6390/bdwlan.elf
-#vendor/firmware/wlan/qca6390/bdwlan.elf1
-#vendor/firmware/wlan/qca6390/bdwlan.elf2
-#vendor/firmware/wlan/qca6390/amss20.bin
-#vendor/firmware/wlan/qca6390/m3.bin
-#vendor/firmware/wlan/qca6390/regdb.bin
+vendor/firmware/qca6390/bdwlan.elf
+vendor/firmware/qca6390/bdwlan.elf1
+vendor/firmware/qca6390/bdwlan.elf2
+vendor/firmware/qca6390/amss20.bin
+vendor/firmware/qca6390/m3.bin
+vendor/firmware/qca6390/regdb.bin
  
 #FILES ADDED BY FIXBLOBS.SH, SORT YOURSELF
 #lib
