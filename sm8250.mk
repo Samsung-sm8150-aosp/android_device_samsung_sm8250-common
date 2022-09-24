@@ -251,7 +251,7 @@ PRODUCT_COPY_FILES += \
 #Power
 
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/etc/powerhint.json
+    $(COMMON_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
     
 PRODUCT_PACKAGES += \
     android.hardware.power-service.samsung-libperfmgr
@@ -360,11 +360,6 @@ VULKAN_DEQP_LEVEL := 2019-03-01
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.vulkan.deqp.level-$(VULKAN_DEQP_LEVEL).xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml
 
-
-
-# Power
-PRODUCT_PACKAGES += \
-    android.hardware.power@1.3-service.samsung-sm8250
 
 #Properties
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
