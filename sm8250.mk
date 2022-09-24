@@ -391,6 +391,8 @@ PRODUCT_COPY_FILES += \
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(COMMON_PATH) \
+    hardware/google/interfaces \
+    hardware/google/pixel \
     $(COMMON_PATH)/power-libperfmgr
 
     # Telephony
