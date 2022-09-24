@@ -119,6 +119,10 @@ vendor/lib64/vendor.qti.hardware.btconfigstore@2.0.so
 vendor/lib64/vendor.samsung.hardware.bluetooth.a2dp@1.0.so
 vendor/lib64/vendor.samsung.hardware.bluetooth@2.0.so
 
+#BT Firmware
+vendor/firmware/htbtfw20.tlv
+vendor/firmware/htnv20.bin
+
 # CDSP
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
@@ -278,6 +282,8 @@ vendor/firmware/ipa_fws.b03
 vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.mdt
 vendor/firmware/a96t356_r8q_all.bin
+vendor/firmware/nfc/libsn100u_fw.so
+vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
 
 # FM
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
@@ -781,6 +787,22 @@ vendor/lib/hw/android.hardware.soundtrigger@2.1-impl.so
 vendor/lib/hw/android.hardware.soundtrigger@2.2-impl.so
 vendor/lib/hw/android.hardware.soundtrigger@2.3-impl.so
 vendor/lib/libaudio_soundtrigger.so
+
+
+#Speaker protection firmware
+vendor/firmware/cs35l40-rcv-dsp1-spk-prot.wmfw
+vendor/firmware/cs40l25a_clab.wmfw
+vendor/firmware/cs35l40-rcv-dsp1-spk-prot-calib.bin
+vendor/firmware/cs40l20.bin
+vendor/firmware/cs35l40-bot-dsp1-spk-prot-calib.bin
+vendor/firmware/cs40l25a.wmfw
+vendor/firmware/cs35l40-rcv-dsp1-spk-prot.bin
+vendor/firmware/cs35l40-bot-dsp1-spk-prot.bin
+vendor/firmware/cs40l25a_clab.bin
+vendor/firmware/cs40l20.wmfw
+vendor/firmware/cs40l25a_exc.bin
+vendor/firmware/cs40l25a_cal.wmfw
+vendor/firmware/cs35l40-bot-dsp1-spk-prot.wmfw
 
 # Thermal
 vendor/bin/thermal-engine
