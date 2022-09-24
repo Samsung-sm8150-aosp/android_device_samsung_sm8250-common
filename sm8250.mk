@@ -250,11 +250,11 @@ PRODUCT_COPY_FILES += \
 
 #Power
 
-    PRODUCT_COPY_FILES += \
+PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/etc/powerhint.json
     
-    PRODUCT_PACKAGES += \
-        android.hardware.power-service.samsung-libperfmgr
+PRODUCT_PACKAGES += \
+    android.hardware.power-service.samsung-libperfmgr
 
 # Public libraries
 PRODUCT_COPY_FILES += \
