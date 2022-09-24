@@ -390,7 +390,8 @@ PRODUCT_COPY_FILES += \
 
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(COMMON_PATH)
+    $(COMMON_PATH) \
+    $(COMMON_PATH)/power-libperfmgr
 
     # Telephony
 PRODUCT_PACKAGES += \
