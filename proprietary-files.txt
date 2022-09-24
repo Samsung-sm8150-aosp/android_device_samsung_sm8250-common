@@ -422,7 +422,6 @@ vendor/lib/libqcc_file_agent.so
 vendor/lib64/libqcc_file_agent.so
 vendor/lib/libsynergy_loc_api.so
 vendor/lib64/libsynergy_loc_api.so
-vendor/lib/libcdfw_remote_api.so
 vendor/lib64/libcdfw_remote_api.so
 vendor/lib/libqdma_file_agent.so
 vendor/lib64/libqdma_file_agent.so
@@ -430,7 +429,6 @@ vendor/lib/vendor.qti.hardware.qccsyshal@1.0.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 vendor/lib/liblbs_core.so
 vendor/lib64/liblbs_core.so
-vendor/lib/libcdfw.so
 vendor/lib64/libcdfw.so
 vendor/lib/vendor.qti.hardware.cacert@1.0.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
