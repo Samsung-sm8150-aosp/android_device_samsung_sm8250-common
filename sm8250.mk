@@ -248,13 +248,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/nfc/sec_s3nrn4v_hwreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nrn4v_hwreg.bin \
     $(LOCAL_PATH)/nfc/nfc/sec_s3nrn4v_swreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nrn4v_swreg.bin
 
-#Power
-
-PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
-    
+# Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.samsung-libperfmgr
+    android.hardware.power-service-qti
 
 # Public libraries
 PRODUCT_COPY_FILES += \
@@ -384,10 +380,7 @@ PRODUCT_COPY_FILES += \
 
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(COMMON_PATH) \
-    hardware/google/interfaces \
-    hardware/google/pixel \
-    $(COMMON_PATH)/power-libperfmgr
+    $(COMMON_PATH)
 
     # Telephony
 PRODUCT_PACKAGES += \
