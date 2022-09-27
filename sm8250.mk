@@ -65,8 +65,9 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service_64
+    android.hardware.camera.provider@2.6-impl \
+    android.hardware.camera.provider@2.6-service_64 \
+    android.hardware.camera.provider@2.5
 
 PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
@@ -180,6 +181,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0-service.samsung.sm8250 \
     libkeymaster4_1support.vendor
+
+    #Lights
+    PRODUCT_PACKAGES += \
+        android.hardware.light-service.samsung.sm8250
 
 # Init
 PRODUCT_COPY_FILES += \
