@@ -284,6 +284,7 @@ vendor/firmware/ipa_fws.b03
 vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.mdt
 vendor/firmware/a96t356_r8q_all.bin
+vendor/firmware/a96t356_r8q_usa.bin
 vendor/firmware/nfc/libsn100u_fw.so
 vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
 
