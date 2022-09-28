@@ -658,6 +658,7 @@ vendor/bin/qrtr-lookup
 vendor/bin/qrtr-ns
 vendor/bin/rmt_storage
 vendor/bin/tftp_server
+vendor/bin/mdm_helper
 vendor/etc/data/dsi_config.xml
 vendor/etc/data/netmgr_config.xml
 vendor/etc/init/netmgrd.rc
