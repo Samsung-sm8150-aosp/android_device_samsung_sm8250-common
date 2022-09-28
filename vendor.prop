@@ -18,5 +18,66 @@ vendor.audio.feature.concurrent_capture.enable=false
 vendor.audio.feature.maxx_audio.enable=false
 vendor.audio.feature.audiozoom.enable=false
 
+# Camera
+camera.disable_zsl_mode=1
+ro.camera.notify_nfc=1
+
+#Chipset
+ro.soc.manufacturer=QTI
+ro.soc.model=SM8250
+
+# Crypto
+ro.crypto.metadata_init_delete_all_keys.enabled=false
+ro.crypto.volume.filenames_mode=aes-256-cts
+
+# Dalvik VM
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.heapsize=512m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=2m
+dalvik.vm.heapmaxfree=8m
+dalvik.vm.lockprof.threshold=500
+
+# Display
+debug.sf.hw=0
+debug.egl.hw=0
+debug.mdpcomp.logs=0
+vendor.gralloc.disable_ubwc=0
+vendor.display.disable_scaler=0
+vendor.display.disable_excl_rect=0
+vendor.display.comp_mask=0
+vendor.display.enable_optimize_refresh=1
+vendor.display.disable_ext_anim=1
+debug.sf.early_phase_offset_ns=100000
+debug.sf.early_app_phase_offset_ns=100000
+debug.sf.early_gl_phase_offset_ns=100000
+debug.sf.early_gl_app_phase_offset_ns=100000
+debug.sf.high_fps_early_phase_offset_ns=100000
+debug.sf.high_fps_early_gl_phase_offset_ns=100000
+debug.sf.high_fps_late_app_phase_offset_ns=100000
+debug.sf.high_fps_late_sf_phase_offset_ns=100000
+vendor.display.idle_time=0
+vendor.display.idle_time_inactive=0
+vendor.display.disable_dynamic_fps=1
+vendor.display.disable_hw_recovery_dump=1
+debug.sf.enable_gl_backpressure=1
+ro.surface_flinger.protected_contents=true
+ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.has_HDR_display=true
+ro.hardware.vulkan=adreno
+ro.hardware.egl=adreno
+ro.opengles.version=196610
+
 # Gatekeeper
 ro.hardware.gatekeeper=mdfpp
+
+# Keystore
+ro.hardware.keystore=mdfpp
+ro.security.keystore.keytype=sakv2,gak
+
+# Media
+debug.stagefright.omx_default_rank=0
+debug.stagefright.ccodec=1
+
+# Perf
+ro.vendor.extension_library=libqti-perfd-client.so
