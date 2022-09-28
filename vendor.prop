@@ -18,6 +18,22 @@ vendor.audio.feature.concurrent_capture.enable=false
 vendor.audio.feature.maxx_audio.enable=false
 vendor.audio.feature.audiozoom.enable=false
 
+#Bluetooth
+persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
+ro.bluetooth.a2dp_offload.supported=true
+persist.bluetooth.a2dp_offload.disabled=false
+persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac
+persist.vendor.bt.aac_frm_ctl.enabled=true
+vendor.qcom.bluetooth.soc=hastings
+persist.vendor.qcom.bluetooth.soc=hastings
+persist.vendor.qcom.bluetooth.enable.splita2dp=true
+persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptiver2
+ro.vendor.bluetooth.wipower=false
+persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true
+persist.vendor.qcom.bluetooth.twsp_state.enabled=false
+persist.vendor.qcom.bluetooth.scram.enabled=false
+persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=true
+
 # Camera
 camera.disable_zsl_mode=1
 ro.camera.notify_nfc=1
@@ -81,3 +97,20 @@ debug.stagefright.ccodec=1
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
+
+# RIL
+vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
+ro.vendor.sec.radio.def_network=9
+persist.vendor.radio.enableadvancedscan=true
+ro.telephony.default_cdma_sub=0
+ro.telephony.default_network=9,9
+ro.vendor.use_data_netmgrd=false
+ro.radio.noril=no
+ro.vendor.epdg.support=true
+
+# USB
+vendor.usb.diag.func.name=diag
+vendor.usb.use_ffs_mtp=0
+
+#Wifi
+wifi.aware.interface=wifi-aware0
