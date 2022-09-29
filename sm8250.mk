@@ -67,7 +67,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.6-impl \
     android.hardware.camera.provider@2.6-service_64 \
-    android.hardware.camera.provider@2.5
+    android.hardware.camera.provider@2.5 \
+    android.hardware.camera.device@3.2
 
 PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
