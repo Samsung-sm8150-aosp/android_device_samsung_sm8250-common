@@ -115,6 +115,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.service \
     android.hardware.bluetooth.audio@2.0-impl \
     android.hardware.soundtrigger@2.3-impl \
+    audioadsprpcd \
     audio.bluetooth.default \
     audio.primary.kona \
     audio.r_submix.default \
@@ -184,7 +185,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.camera.postproc@1.0 \
     vendor.qti.hardware.camera.postproc@1.0.vendor \
-    libgrallocusage
+    libgrallocusage \
+    android.hardware.camera.provider@2.5-service_64.sm8250
 
 # Common init scripts
 PRODUCT_PACKAGES += \
