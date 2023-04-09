@@ -27,10 +27,22 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 # Create carrier folder for HiddenMenu
+
+on fs
+    # Permission for flashlight control for HAL3.3
+    # The Istor espresso board does not have the flash led h/w, So the below permission line are blocked.
+    # If you want to test the flashlight in board which have the flash led h/w, Enable the below blocked lines.
+    chmod 0660 /sys/class/camera/flash/rear_flash
+    chown system camera /sys/class/camera/flash/rear_flash
+
 on post-fs
     mkdir /efs/carrier 0755 radio system
     chown radio system /efs/carrier
     chown radio system /efs/carrier/HiddenMenu
+
+on post-fs-data
+    chown cameraserver system /sys/class/camera/flash/rear_flash
+
 
 #mDNIe
 	mkdir /efs/afc 0750 system system
