@@ -187,13 +187,6 @@ system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 
 # Camera
-vendor/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service_64
-vendor/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64.rc
-vendor/lib/camera.device@1.0-impl.so
-vendor/lib/camera.device@3.2-impl.so
-vendor/lib/camera.device@3.3-impl.so
-vendor/lib/camera.device@3.4-impl.so
-vendor/lib/camera.device@3.5-impl.so
 vendor/lib/com.qti.feature2.anchorsync.so
 vendor/lib/com.qti.feature2.demux.so
 vendor/lib/com.qti.feature2.frameselect.so
@@ -211,7 +204,6 @@ vendor/lib/com.qti.feature2.stub.so
 vendor/lib/com.qti.feature2.swmf.so
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/camera.unihal.default.so
-vendor/lib/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so
 vendor/lib/libBeauty_v4.camera.samsung.so
 vendor/lib/libDVTracking_interface.so
 vendor/lib/libDepthBokehVideo_interface.so
@@ -323,12 +315,7 @@ vendor/lib/libvideoutils.so
 vendor/lib/unihal_cutils@2.1.so
 vendor/lib/unihal_main@2.1.so
 vendor/lib/unihal_uniplugin@1.0.so
-vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
-vendor/lib/vendor.samsung.hardware.camera.device@5.0-impl.so
-vendor/lib/vendor.samsung.hardware.camera.device@5.0.so
-vendor/lib/vendor.samsung.hardware.camera.provider@4.0-legacy.so
-vendor/lib/vendor.samsung.hardware.camera.provider@4.0.so
 vendor/lib64/camera.device@1.0-impl.so
 vendor/lib64/camera.device@3.2-impl.so
 vendor/lib64/camera.device@3.3-impl.so
@@ -351,7 +338,6 @@ vendor/lib64/com.qti.feature2.stub.so
 vendor/lib64/com.qti.feature2.swmf.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/camera.unihal.default.so
-vendor/lib64/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so
 vendor/lib64/libBeauty_v4.camera.samsung.so
 vendor/lib64/libDLInterface.camera.samsung.so
 vendor/lib64/libDVTracking_interface.so
@@ -461,9 +447,7 @@ vendor/lib64/unihal_main@2.1.so
 vendor/lib64/unihal_uniplugin@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
-vendor/lib64/vendor.samsung.hardware.camera.device@5.0-impl.so
 vendor/lib64/vendor.samsung.hardware.camera.device@5.0.so
-vendor/lib64/vendor.samsung.hardware.camera.provider@4.0-legacy.so
 vendor/lib64/vendor.samsung.hardware.camera.provider@4.0.so
 
 # Charger
@@ -1375,3 +1359,10 @@ vendor/lib/libhdcp2p2prov.so
 vendor/lib64/libhdcp2p2prov.so
 vendor/etc/snap_gpu_kernel_64.bin
 vendor/etc/sysconfig/vendor-apex-allowlist.xml
+
+# Thermal
+vendor/bin/thermal-engine
+vendor/etc/init/init_thermal-engine.rc
+vendor/etc/thermal-engine.conf
+-vendor/lib/libthermalclient.so
+-vendor/lib64/libthermalclient.so
