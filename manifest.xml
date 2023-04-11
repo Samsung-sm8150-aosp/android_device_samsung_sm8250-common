@@ -175,7 +175,11 @@
         <fqname>@1.3::IDevice/qti-gpu</fqname>
         <fqname>@1.3::IDevice/qti-hta</fqname>
     </hal>
-    <hal format="hidl">
+     <hal format="hidl" override="true">
+        <name>android.hardware.radio</name>
+        <transport>hwbinder</transport>
+    </hal>
+    <hal format="hidl" override="true">
         <name>android.hardware.radio</name>
         <transport>hwbinder</transport>
         <fqname>@1.2::ISap/slot1</fqname>
@@ -207,7 +211,7 @@
         </interface>
         <fqname>@1.0::IDevice/default</fqname>
     </hal>
-    <hal format="hidl" override="true">
+    <!-- <hal format="hidl" override="true">
         <name>android.hardware.secure_element</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -215,7 +219,7 @@
             <name>ISecureElement</name>
             <instance>eSE1</instance>
         </interface>
-    </hal>
+    </hal> -->
     <hal format="hidl">
         <name>android.hardware.soundtrigger</name>
         <transport>hwbinder</transport>
@@ -308,7 +312,7 @@
         <name>vendor.qti.data.factory</name>
         <transport>hwbinder</transport>
     </hal>
-    <!-- <hal format="hidl">
+    <hal format="hidl">
         <name>vendor.lineage.livedisplay</name>
         <transport>hwbinder</transport>
         <version>2.0</version>
@@ -324,7 +328,20 @@
             <name>ISunlightEnhancement</name>
             <instance>default</instance>
         </interface>
-    </hal> -->
+                <interface>
+            <name>IReadingEnhancement</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.lineage.touch</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IGloveMode</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="hidl">
         <name>vendor.qti.gnss</name>
         <transport>hwbinder</transport>
@@ -625,6 +642,16 @@
             <instance>default</instance>
         </interface>
         <fqname>@2.0::ISehMiscPower/default</fqname>
+    </hal>
+        <hal format="hidl">
+        <name>android.hardware.biometrics.face</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IBiometricsFace</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IBiometricsFace/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.radio</name>
