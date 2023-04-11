@@ -40,6 +40,10 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     AdvancedDisplay
 
+
+PRODUCT_PACKAGES += \
+    lineage.livedisplay@2.0-service.samsung-qcom
+
 # AOSP Recovery
 TARGET_USES_AOSP_RECOVERY := true
 
