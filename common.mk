@@ -114,12 +114,11 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio@6.0-impl \
+    android.hardware.audio@6.0-impl.sm8250 \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.audio.service \
-    android.hardware.bluetooth.audio@2.0-impl \
+    android.hardware.bluetooth.audio@2.1-impl \
     android.hardware.soundtrigger@2.3-impl \
-    audioadsprpcd \
     audio.bluetooth.default \
     audio.primary.kona \
     audio.r_submix.default \
@@ -143,8 +142,12 @@ PRODUCT_PACKAGES += \
     libreverbwrapper \
     libsndmonitor \
     libspkrprot \
+    libtinycompress \
     libvisualizer \
     libvolumelistener
+
+PRODUCT_PACKAGES += \
+    SamsungDAP
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
