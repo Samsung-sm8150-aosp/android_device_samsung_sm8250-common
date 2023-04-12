@@ -18,7 +18,7 @@
 
 #include "LegacyCameraProviderImpl_2_5.h"
 
-#define SAMSUNG_CAMERA_DEBUG
+#define SAMSUNG_CAMERA_DEBUG 1
 
 using ::android::hardware::camera::provider::V2_5::implementation::LegacyCameraProviderImpl_2_5;
 using ::android::hardware::Return;

@@ -99,7 +99,7 @@ while [ "${#}" -gt 0 ]; do
 done
 
 if [ -z "${SRC}" ]; then
-    SRC="/home/j0sh1x/TWRP/BACKUPS/RFCTA10W7QV/stock_2022-11-15--07-24-18/m"
+    SRC="/home/j0sh1x/projectx/m"
 fi
 
 if [ -z "${ONLY_TARGET}" ]; then

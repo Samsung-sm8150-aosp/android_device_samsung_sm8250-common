@@ -27,7 +27,13 @@ const int kMaxCameraIdLen = 16;
 
 SamsungCameraProvider::SamsungCameraProvider() : LegacyCameraProviderImpl_2_5() {
     // ID=50 is telephoto
+    //we can try theese
+    //&&{0, 1, 2, 20, 21, 23, 3, 4, 52, })
+    mExtraIDs.push_back(20);
+    mExtraIDs.push_back(21);
+    mExtraIDs.push_back(23);
     mExtraIDs.push_back(50);
+    mExtraIDs.push_back(52);
 
     if (!mInitFailed) {
         for (int i : mExtraIDs) {
