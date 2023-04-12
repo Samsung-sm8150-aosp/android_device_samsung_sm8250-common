@@ -60,6 +60,9 @@ persist.vendor.data.mode=concurrent
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
+#Updater
+lineage.updater.uri=https://raw.githubusercontent.com/J0SH1X/Lineage-OTA/lineage-20.0/r8q.json
+
 # Vendor
 ro.vendor.qti.va_aosp.support=1
 
