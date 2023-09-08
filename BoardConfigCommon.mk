@@ -154,6 +154,9 @@ DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 TARGET_INIT_VENDOR_LIB ?= //$(COMMON_PATH):init_samsung_kona
 TARGET_RECOVERY_DEVICE_MODULES ?= init_samsung_kona
 
+# Keystore
+TARGET_KEYMASTER_VARIANT := samsung
+
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
